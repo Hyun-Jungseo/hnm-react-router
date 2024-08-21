@@ -20,11 +20,11 @@ import Navbar from "./component/Navbar";
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Routes>
-        <Route path="/" element={<ProductAll/>}/>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/product/:id" element={<ProductDetail/>}/>
+        <Route path="/" element={<ProductAll />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
       </Routes>
     </div>
   );
