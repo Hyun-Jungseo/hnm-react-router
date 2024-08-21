@@ -3,7 +3,7 @@ import ProductCard from '../component/ProductCard';
 
 const ProductAll = () => {
 
-  const [productList, setProductList] = useState([]);
+  const [productList, setProductList] = useState([]); // eslint-disable-line no-unused-vars
   const getProducts = async () => {
     let url = 'http://localhost:5000/products';
     let response = await fetch(url);
