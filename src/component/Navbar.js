@@ -16,7 +16,7 @@ const Navbar = () => {
         </div> 
       </div>
       <div className='nav-section'>
-        <img width={100} src="{logo}" alt='logo'/>
+        <img width={100} src={logo} alt='logo'/>
       </div>
       <div className='menu-area'>
           <ul className='menu-list'>
